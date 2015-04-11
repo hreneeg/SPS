@@ -1,0 +1,1 @@
+[26-Mar-2015 22:01:48 UTC] PHP Fatal error:  Call to undefined function make_template_header() in /home/ubuntu/workspace/Other/phpplanner/index.php on line 20

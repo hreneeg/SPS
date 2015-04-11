@@ -1,0 +1,121 @@
+    body {
+        font-size: 16px;
+        background-color: #4d7f17; 
+		margin: 0px;
+        color: black;
+        padding: 3px;
+    }
+	#main {
+		background-color: #FFFFFF;
+		margin-left:2.5%;
+		margin-right:2.5%;
+		box-shadow: 10px 10px 5px #1e2e1e;
+	}
+	#head {
+        width: 100%;
+        height: 73px;
+        background-color: #FFFFFF;
+        margin: 0;
+        display: inline-block;
+	}
+	/*This is for the days table (green)*/
+    .cal_day {
+	position: relative;
+	float: left;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	width: 64px;
+	height: 95px;
+	background-color: #4d7f17;
+    }
+    /*This is the number in the calendar days*/
+    .day_heading {
+	position: relative;
+	float: left;
+	width: 40px;
+	height: 16px;
+	padding: 6px;
+	color: #000;	/*text color*/
+	font-family: Arial;
+	font-size: 14px
+    }
+    /*This is for the days table (grey)*/
+    .non_cal_day {
+	position: relative;
+	float: left;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	width: 64px;
+	height: 95px;
+	background-color: #8ae429;
+    }
+    nav li{
+    border-left: 1px solid #eaeaea;
+    }
+    /*Menue button colors*/
+    nav a {
+    background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4d7f17), to(#fff));
+    background-image: -webkit-linear-gradient(#4d7f17, #91b53e);
+    background-image: -moz-linear-gradient(#4d7f17, #91b53e);
+    background-image: -o-linear-gradient(#4d7f17, #91b53e);
+    background-image: linear-gradient(#4d7f17, #91b53e);
+    text-shadow: 0 1px green;
+    box-shadow: inset 0 0 0 1px #91b53e;
+    -webkit-box-shadow: inset 0 0 0 1px #4d7f17;
+    color: #444;
+    }
+    nav a:hover {
+    color: #222;
+    z-index: 2;
+    -webkit-box-shadow: inset 0 0 0 1px #4d7f17, 0 0 3px rgba(0, 0, 0, 0.3);
+    box-shadow: inset 0 0 0 1px #4d7f17, 0 0 3px rgba(0, 0, 0, 0.3);
+    }
+    nav li.active a, nav a:active {
+    color: #222;
+    background: #6bb120;
+    -webkit-box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.1);
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.1);
+    }
+    table {
+        padding: 5px;
+        padding-left:  15px;
+        padding-right: 15px;
+        background-color: #91b53e;
+        border-radius: 0 0 5px 5px;
+        color: black;
+    }
+    form{
+    
+        border-bottom: 0px solid #cc9900;
+        font-size: 12px;
+    }
+    h1{
+        font: arial;
+        font-size: 180%;
+        text-align: center;
+    }
+
+fieldset{
+	width: 37%;
+}
+
+legend{
+	font-size: 20px;
+}
+
+.field{
+	text-align: right;
+	width: 100px;
+	float: left;
+	font-weight: bold;
+}
+
+.textbox-size{
+	width: 200px;
+	float: left;
+}
+
+fieldset p{
+	clear: both;
+	padding: 3px;
+}

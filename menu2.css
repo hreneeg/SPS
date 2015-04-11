@@ -1,0 +1,119 @@
+/*
+ * Copyright (c) 2012 Thibaut Courouble
+ * http://www.cssflow.com
+ *
+ * Licensed under the MIT License:
+ * http://www.opensource.org/licenses/mit-license.php
+ *
+ * View the Sass/SCSS source at:
+ * http://www.cssflow.com/snippets/menu-with-notification-badges/demo/scss
+ *
+ * Original PSD by Orman Clark: http://goo.gl/AQxlt
+ */
+
+@import "http://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css";
+
+.container {
+  margin: 10px;
+  width: 750px;
+  height: 68px;
+}
+
+nav {
+  height: 26px;
+  text-align: center;
+}
+
+nav ul {
+  border-style: none;
+  border-radius: 2px;
+  display: inline-block;
+  vertical-align: middle;
+  zoom: 1;
+  -webkit-box-shadow: 0 0px 0px;
+  -moz-box-shadow: 0px 0px 0px;
+  box-shadow: 0px 0px 0px;
+  background: none;
+  list-style: none;
+}
+
+nav li {
+  float: left;
+}
+
+nav li:first-child {
+  border-left: 0;
+}
+
+nav li:first-child a {
+  border-radius: 3px 0 0 3px;
+}
+
+nav li:last-child a {
+  border-radius: 0 3px 3px 0;
+}
+
+nav a {
+  display: block;
+  position: relative;
+  padding: 0 14px;
+  height: 26px;
+  line-height: 26px;
+  font-size: 11px;
+  font-weight: bold;
+  text-decoration: none;
+  background: #fafafa;
+}
+
+nav .badge {
+  display: block;
+  position: absolute;
+  top: -12px;
+  right: 3px;
+  line-height: 16px;
+  height: 16px;
+  padding: 0 5px;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-shadow: 0 1px rgba(0, 0, 0, 0.25);
+  border: 1px solid;
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), 0 1px 1px rgba(0, 0, 0, 0.08);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.3), 0 1px 1px rgba(0, 0, 0, 0.08);
+}
+
+nav .badge {
+  background: #67c1ef;
+  border-color: #30aae9;
+  background-image: -webkit-linear-gradient(top, #acddf6, #67c1ef);
+  background-image: -moz-linear-gradient(top, #acddf6, #67c1ef);
+  background-image: -o-linear-gradient(top, #acddf6, #67c1ef);
+  background-image: linear-gradient(to bottom, #acddf6, #67c1ef);
+}
+
+nav .badge.green {
+  background: #77cc51;
+  border-color: #59ad33;
+  background-image: -webkit-linear-gradient(top, #a5dd8c, #77cc51);
+  background-image: -moz-linear-gradient(top, #a5dd8c, #77cc51);
+  background-image: -o-linear-gradient(top, #a5dd8c, #77cc51);
+  background-image: linear-gradient(to bottom, #a5dd8c, #77cc51);
+}
+
+nav .badge.yellow {
+  background: #faba3e;
+  border-color: #f4a306;
+  background-image: -webkit-linear-gradient(top, #fcd589, #faba3e);
+  background-image: -moz-linear-gradient(top, #fcd589, #faba3e);
+  background-image: -o-linear-gradient(top, #fcd589, #faba3e);
+  background-image: linear-gradient(to bottom, #fcd589, #faba3e);
+}
+
+nav .badge.red {
+  background: #fa623f;
+  border-color: #fa5a35;
+  background-image: -webkit-linear-gradient(top, #fc9f8a, #fa623f);
+  background-image: -moz-linear-gradient(top, #fc9f8a, #fa623f);
+  background-image: -o-linear-gradient(top, #fc9f8a, #fa623f);
+  background-image: linear-gradient(to bottom, #fc9f8a, #fa623f);
+}
